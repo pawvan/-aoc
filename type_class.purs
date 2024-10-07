@@ -1,3 +1,11 @@
+class String b where
+   string::a-> string 
+instance S::String a where
+    string x = log (toString x) 
+
+class Eq ::eq -> a -> a where 
+    eq::a-> boolean 
+
 {-
 Defining a Type Class:
 -}
